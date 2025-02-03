@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #3674B5;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+#Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3674B5;
+    color: antiquewhite;
+    height: 10vh;
+}
+
+#outer-container{
+    background-color:#578FCA;
+    height: 100vh;
+    width: 100%;
+    padding: 4vw;
+}
+#inner-container{
+    background-color: #9ebaff;
+    height: 100%;
+    width: 100%;
+    border-radius: 2vw;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: scroll;
+}
+
+
+#input-container{
+    /* background-color: #578FCA; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    gap: 2vw;
+    padding: 4px;
+
+}
+input{
+    height: 100%;
+    width: 50vw;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 2vw;
+}
+input:hover{
+    border: 2px solid #578FCA;
+    height: 100% ;
+}
+#input-container button{
+    height: 100%;
+    width: 12vw;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #3674B5;
+    color: #ffffff;
+}
+#input-container button:hover{
+    border: 2px solid #3674B5 ;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#Todo-list-container{
+    /* background-color: #ffffff; */
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2vw;
+}
+
+.todo-box{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.todo-box button{
+    background-color: red;
+    height:4vh;
+    width: 8vw;
+    cursor: pointer;
+}
